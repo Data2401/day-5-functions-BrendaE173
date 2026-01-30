@@ -22,9 +22,18 @@ num_pets
 
 
 # Assign the title of your favorite book as a variable called `favorite_book`
+favorite_book = "Alas, Babylon"
 
 
 # Create a variable called `radius`, which is your favorite number
+radius = pi
+radius
+
+# Or
+
+pi
+
+
 
 # Create a variable called `area`, which is the area of a circle with that radius.
 # Use the variable `radius` to calculate this. 
