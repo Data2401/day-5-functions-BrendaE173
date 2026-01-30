@@ -13,10 +13,16 @@
 ### PART ONE - Review of Objects ####
 
 # Assign your name to a variable called `my_name`
+my_name = "Brenda"
+my_name
 
 # Assign the number of pets you have to a variable called `num_pets`
+num_pets = 1
+num_pets
+
 
 # Assign the title of your favorite book as a variable called `favorite_book`
+
 
 # Create a variable called `radius`, which is your favorite number
 
