@@ -13,8 +13,8 @@
 ### PART ONE - Review of Objects ####
 
 # Assign your name to a variable called `my_name`
-my_name = "Brenda"
-my_name
+my_name = "Brenda Nava"
+
 
 # Assign the number of pets you have to a variable called `num_pets`
 num_pets = 1
@@ -23,10 +23,11 @@ num_pets
 
 # Assign the title of your favorite book as a variable called `favorite_book`
 favorite_book = "Alas, Babylon"
-
+favorite_book
 
 # Create a variable called `radius`, which is your favorite number
-radius = 7
+radius <- 7
+
 
 
 
@@ -34,26 +35,38 @@ radius = 7
 # Use the variable `radius` to calculate this. 
 # Use the built-in constant `pi` for pi.
 
+area = pi*radius^2
+
+
 
 # Create a boolean variable `too_big` that is set to TRUE if the area is larger than 100
 # Use a relationship operator to do this  (don't just set it to "TRUE")
 # Think: how do you check if it's larger than 10? Assign that to your new variable name. 
+too_big = area > 100
 
 
 # Display the variable `my_name`
 # Display the variable `area` 
 # Display the variable `too_big`
+my_name
+area
+too_big
 
 
 ### PART TWO ###
 
 # Create a variable `name_length` that holds how many letters (including spaces)
 # are in your name, using the variable you made above. (use the `nchar()` function)
+name_length = 11
 
 # Print the number of letters in your name
+name_length
+nchar(my_name)
 
 # Create a variable `now_doing` that is your name followed by "is programming!" 
 # (use the `paste()` function)
+now_doing = "is programming!"
+paste(my_name, now_doing)
 
 # Make the `now_doing` variable upper case
 
