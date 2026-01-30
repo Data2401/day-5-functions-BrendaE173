@@ -26,12 +26,7 @@ favorite_book = "Alas, Babylon"
 
 
 # Create a variable called `radius`, which is your favorite number
-radius = 3.14
-radius
-
-# Or
-
-pi
+radius = 7
 
 
 
